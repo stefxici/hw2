@@ -10,8 +10,6 @@
 # standard arrays
 #importing some Python libraries
 # --> add your Python code here
-from datetime import datetime
-
 import psycopg2
 from psycopg2.extras import RealDictCursor
 
