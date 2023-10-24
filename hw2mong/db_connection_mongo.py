@@ -96,7 +96,7 @@ def deleteDocument(col, docId):
 #     # Delete the document from the database
 #     # --> add your Python code here
 
-    col.delete_one({"docnumb": int(docId)})
+    col.delete_one({'docnumb': docId})
 
 def updateDocument(col, docId, docText, docTitle, docDate, docCat):
 
